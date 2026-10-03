@@ -1,0 +1,14 @@
+Baseline run, How2Sign test split
+Source: PoseStich-SLT (Exploration-Lab), cited published results, not locally reproduced
+GloFE BLEU-4: 1.97
+PoseStich-SLT BLEU-4: 4.56
+
+Reproduction attempt note:
+Cloning and running PoseStich-SLT's own evaluation failed -- its training
+script (IncrementalPT_linear_sch.py) hardcodes a path to an unreleased
+internal file (/DATA3/vaibhav/isign/PretrainingISL/train_MT16M.csv) not
+included in the public repository. The published numbers above are used
+as the baseline reference instead of a locally reproduced number.
+
+Future work: a self-run baseline using How2Sign's own
+official repository, imatge-upc/slt_how2sign_wicv2023.
